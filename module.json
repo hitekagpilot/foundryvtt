@@ -1,0 +1,55 @@
+{
+    "name": "my-shared-content",
+    "title": "My Shared Content",
+    "description": "A collection of my content.",
+    "version": "1.0.0",
+    "author": "Me",
+    "minimumCoreVersion": "0.7.5",
+    "compatibleCoreVersion": "0.7.9",
+    "packs": [
+        {
+            "name": "shared-creatures",
+            "label": "Shared Creatures",
+            "path": "./packs/creatures.db",
+            "entity": "Actor"
+        },
+        {
+            "name": "shared-items",
+            "label": "Shared Items",
+            "path": "./packs/items.db",
+            "entity": "Item"
+        },
+        {
+            "name": "shared-scenes",
+            "label": "Shared Scenes",
+            "path": "./packs/scenes.db",
+            "entity": "Scene"
+        },
+        {
+            "name": "shared-journal-entries",
+            "label": "Shared Journal Entries",
+            "path": "./packs/journal-entries.db",
+            "entity": "JournalEntry"
+        },
+        {
+            "name": "shared-macros",
+            "label": "Shared Macros",
+            "path": "./packs/macros.db",
+            "entity": "Macro"
+        },
+        {
+            "name": "shared-roll-tables",
+            "label": "Shared Roll Tables",
+            "path": "./packs/roll-tables.db",
+            "entity": "RollTable"
+        },
+        {
+            "name": "shared-playlists",
+            "label": "Shared Playlists",
+            "path": "./packs/playlists.db",
+            "entity": "Playlist"
+        }
+    ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-shared-content/-/raw/master/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-shared-content/-/raw/master/my-shared-content.zip"
+  }
